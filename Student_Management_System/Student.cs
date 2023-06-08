@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Student_Management_System
+{
+    public class Student : Person
+    {
+        public double Grades;
+
+        public Student()
+        {
+            
+        }
+
+        public override void DisplayInfo()
+        {
+            Console.WriteLine($"Name :  {Name},\nAge :  {Age},\nGrades: {Grades}");
+        }
+    }
+}
